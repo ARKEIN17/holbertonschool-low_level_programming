@@ -2,11 +2,11 @@
 #include <stdio.h>
 
 /**
- *  * print_rev - Entry Point
- *   * @s: Variable
- *    * a: Variable
- *     * Return: No line
- *      */
+ * print_rev - Entry Point
+ * @s: Variable
+ * a: Variable
+ * Return: No line
+ */
 
 void print_rev(char *s)
 {
