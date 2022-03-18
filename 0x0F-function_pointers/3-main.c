@@ -17,9 +17,8 @@ int main(int argc, char *argv[])
 		num2 = atoi(argv[3]);
 		opera = get_op_func(argv[2]);
 		printf("%d\n", opera(num1, num2));
-
 		return (0);
 	}
-	pintf("Error\n");
+	printf("Error\n");
 	exit(98);
 }
