@@ -1,7 +1,8 @@
 #include "main.h"
 /**
- *
- *
+ * print_binary - Function
+ * @n: Variable
+ * Return: No Line
  */
 void print_binary(unsigned long int n)
 {
