@@ -1,4 +1,5 @@
 # second makefile.
+
 SRC = *.c
 CC = gcc
 all:
