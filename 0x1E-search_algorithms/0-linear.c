@@ -9,6 +9,7 @@
  * @array: pointer to array
  * @size: size of array
  * @value: value to be found
+ * Return: the index
  */
 int linear_search(int *array, size_t size, int value)
 {
