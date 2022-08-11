@@ -3,22 +3,26 @@
 #include "search_algos.h"
 
 /**
- * @brief
+ * linear_search - function that searches for a value in an array of integers
  *
+ * H: iterater
+ * @array: pointer to array
+ * @size: size of array
+ * @value: value to be found
  */
 int linear_search(int *array, size_t size, int value)
 {
-        size_t H = 0;
+	size_t H = 0;
 
-        while (array && H < size)
-        {
-                printf("Value checked array[%ld] = [%d]\n", H, array[H]);
+	while (array && H < size)
+	{
+		printf("Value checked array[%ld] = [%d]\n", H, array[H]);
 
-                if (array[H] == value)
-                {
-                        return (H);
-                }
-                H++;
-        }
-        return -1;
+		if (array[H] == value)
+		{
+			return (H);
+		}
+		H++;
+	}
+	return (-1);
 }
