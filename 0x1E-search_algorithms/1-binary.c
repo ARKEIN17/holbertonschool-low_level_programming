@@ -1,11 +1,11 @@
 #include "search_algos.h"
 /**
- * 
- * 
- * @param array
- * @param size
- * @param value
- * @return int
+ * binary_search - funtion point
+ *
+ * @array: array
+ * @size: size of array
+ * @value: valuo to be found
+ * Return: -1 if array is NULL or not present
  */
 int binary_search(int *array, size_t size, int value)
 {
